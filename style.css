@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+/* diminuir o tamanho da logo */
+#Logo{
+    width: 6%;
+}
+/* Mudar a cor do fundo do header */
+.navbar{
+    background-color: #5885AF;
+}
+
+
+
+/* tetando o grid */
+.quemSou {  
+    display: grid;  
+    grid-template-columns: 1fr 1fr;  
+    grid-template-rows: 50px 50px; 
+}
